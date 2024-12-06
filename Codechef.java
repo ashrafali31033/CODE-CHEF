@@ -7,17 +7,10 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int y = sc.nextInt();
 		
-		
-		int n = sc.nextInt();
-		if(n<=60)
-		
-		System.out.println("yes ");
-		
-		else
-		System.out.println("no");
-		
-	
+		System.out.println(x+x+x+x+x+x+y);
 
 	}
 }
